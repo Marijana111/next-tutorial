@@ -57,7 +57,7 @@ export default function RecipeDetails({ recipe }) {
       </div>
 
       <div className="info">
-        <p>Take about {cookingTime} mins to cook.</p>
+        <p>Take about {cookingTime} minutes to cook.</p>
         <h3>Ingredients:</h3>
         {ingredients.map((ing) => (
           <span key={ing}>{ing}</span>
