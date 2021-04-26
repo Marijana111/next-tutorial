@@ -37,7 +37,6 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export default function RecipeDetails({ recipe }) {
-  console.log(recipe);
   const {
     featuredImage,
     title,
